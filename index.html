@@ -9,19 +9,29 @@
 </head>
 
 <body>
+	<div class='container-fluid'>
 	<div class="displayBox">
-		<button class='btn btn-primary getImage' id='getAPOD'>Get Today's Image</button>
-        <button class='btn btn-primary getImage' id='getRandomAPOD'>Get Random Image</button>
+		<button class='btn btn-primary getImage' id='getTodayAPOD'>Get Today's Image</button>
+        <!--<form>
+			<input type="date" id='inputDate'>-->
+		<button class='btn btn-primary getImage' type='submit' id='getRandomAPOD'>Get Random Image</button>
+		<!--</form>-->
         <button class='btn btn-primary getImage' id='getNewEarth'>Get Random Earth</button>
 
 	</div>
-    <div id='picturePlace'>
+	<div class='row'>
+    <div class = "col-xs-6 picPlace" id='picturePlace'>
+		</div>
+		<div class='col-xs-6' id='description'>
+		</div>
+		</div>
 
 
 
 
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 	<script src='app.js'></script>
+	</div>
 </body>
 
 </html>

@@ -12,3 +12,12 @@ body{
     /*align-content: center;*/
     /*color:red;*/
 }
+.picPlace{
+    height: 500px;
+    width: auto;
+}
+.imgClass{
+    height: 500px;
+    width: auto;
+
+}
